@@ -1,0 +1,2 @@
+{!! Form::label('emp', 'Employee', ['class' => 'control-label']) !!}
+{!! Form::select('emp', $empList, '', ['class' => 'form-control select2mes','id'=>'emp_id','onchange'=>'select_site_emp(this)']) !!}

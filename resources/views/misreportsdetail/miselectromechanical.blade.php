@@ -1,0 +1,711 @@
+ <link href="/vendors1/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <!-- Font Awesome -->
+    <link href="/vendors1/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+   <!-- <link href="vendors1/nprogress/nprogress.css" rel="stylesheet">-->
+    <!-- iCheck -->
+    <!--<link href="vendors1/iCheck/skins/flat/green.css" rel="stylesheet">-->
+	
+    <!-- bootstrap-progressbar -->
+    <link href="/vendors1/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+   <!-- <link href="vendors1/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>-->
+    <!-- bootstrap-daterangepicker -->
+    <!--<link href="vendors1/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">-->
+
+    <!-- Custom Theme Style -->
+    <link href="/build/css/custom.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/dist/tablesaw.css">
+	<link rel="stylesheet" href="/demo/demo.css">
+	<link rel="stylesheet" href="//filamentgroup.github.io/demo-head/demohead.css">
+		<link media="all" type="text/css" rel="stylesheet" href="{{ url('scripts/third/summernote') }}/summernote.css">
+    
+    <style>
+	.numerror
+   {
+	border-color: red !important;
+	border-width: 1.5px !important;
+   } 
+	.manjeera table tr th 
+	{
+	padding:5px;
+	text-align:center;
+	}
+	.manjeera table tr td 
+	{
+	padding:5px;
+	text-align:center;
+	}
+ 	.manjeera
+	{
+	font-size:12px;
+	}
+	.x_title
+	{
+	border-bottom:none;
+	padding:0px;
+	margin:0px;
+	}
+	.borewell
+	{
+	margin-left:30px;
+	}
+	.docs-main
+	{
+	max-width:100%;
+		 margin:0px;
+	}
+	.tablesaw-bar
+	{
+	height: 30px;
+    display: block;
+    padding-bottom: 11px;
+    margin-bottom: 10px;
+	}
+	.communityinpu tr td input 
+	{
+	width:100%;
+	 font-size:12px;
+
+	}
+	table
+	{
+	margin-bottom:10px;
+	}
+	.tablesaw-bar
+	{
+	height:30px;
+	}
+	.tablcomu tr th
+	{
+	text-align:center;
+	}
+	.docs-main h3
+	{
+	margin-bottom:25px;
+	margin-top:10px;
+	}
+	.x_panel
+	{
+	border:0px solid white;
+	}
+.fireseafmis
+{
+width:100%;
+}
+.fireseafmis input[type="checkbox"]
+{
+ margin-right:4px;
+}
+.fireseafmis2
+{
+width:50%;
+}
+.fireseafmis2 input[type="checkbox"]
+{
+ margin-right:4px;
+}
+.page-title.report-wquipment
+{
+ height:auto;
+ margin-bottom:10px;
+ font-weight:bold;
+ color:#023F78;
+ font-size:23px;
+}
+.dlyrep-select.fire2mis.report-hidden
+{
+ margin-bottom:0px;
+}
+.dlyrep-select.fire2mis.report-hidden label
+{
+ width:40px;
+ float:left;
+ font-weight:bold;
+ color: #ff2518;
+ line-height: 16px;
+}
+.dlyrep-select.fire2mis.report-hidden select
+{
+ width:200px;
+ float:left;
+}
+.tablesaw.tablesaw-swipe
+{
+ width: 70%;
+ margin: 0 auto;
+}
+.tablesaw.tablesaw-swipe tr th.nwwidth
+{
+ width:110px;
+}
+.tablesaw.tablesaw-swipe tr td.nwwidth
+{
+ width:110px;
+}
+.tutoriallla
+{
+ width:50px;
+}
+.save-button input[type="submit"]
+	{
+	 text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+    color: #ffffff;
+    padding: 7px 30px;
+    background-color: #B22E2E;
+    background-image: -moz-linear-gradient(top, #E95D5D, #E40304);
+    background-image: -ms-linear-gradient(top, #E95D5D, #E40304);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E95D5D), to(#E40304));
+    background-image: -webkit-linear-gradient(top, #E95D5D, #E40304);
+    background-image: -o-linear-gradient(top, #E95D5D, #E40304);
+    background-image: linear-gradient(top, #E95D5D, #E40304);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E95D5D', endColorstr='#E40304', GradientType=0);
+    border-color: #C00;
+    border-color: rgba(0, 0, 0, 0.15);
+	width:100px;
+	}
+	.save-button input[type="submit"]:hover
+	{
+	 background-color:#003087;
+	}
+	.metro-suuply
+	{
+	 padding:0px;
+	}
+	.metro-suuply1
+	{
+	 padding:0px !important;
+	}
+	.x_content.housesco212.homely
+	{
+	 padding-left:0px;
+	}
+	.form-group.post-method
+	{
+	 margin-bottom:0px;
+	}
+	.choose-right .col-sm-6
+	{
+	 margin-bottom:10px;
+	 padding-left:0px;
+	}
+	.alwayyya
+	{
+	 margin-top:10px;
+	}
+	.comsbbblly
+	{
+	 width:70%;
+	 margin:0 auto;
+	}
+	.choose-right
+	{
+	 width:70%;
+	 margin:0 auto;
+	}
+	.choose-right .col-sm-4
+	{
+	 margin-bottom:10px;
+	 
+	}
+	.choose-right .col-sm-8
+	{
+	 margin-bottom:10px;
+	}
+	.foressssissue
+	{
+	 border: 1px solid #8a8787;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 18px 0px;
+    background-color: #f7f6f6;
+	}
+	.alwayyya
+	{
+	 font-weight:bold;
+	 padding-left:15px;
+	}
+	.adddformfiles
+	{
+	 margin-top:10px;
+	}
+	.downtimeremark
+	{
+	 width:100%;
+	}
+	</style>
+@extends('layouts.app')
+
+@section('content')
+
+
+
+    <?php $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)); 
+									$year = $uriSegments[3]; 
+									$month = $uriSegments[4]; 
+									?>
+              
+<div class="misback-button"><a href="/misreportsoptions/<?php echo $year."/".$month ?>">Back</a></div>
+	<div class="dailyreports">
+    <h3 class="page-title report-wquipment"><b>MIS Reports   >>   Equipment Status</b></h3>
+   
+
+    <?php /*?>{!! Form::open(['method' => 'get']) !!}
+    <div class="row">
+        <div class="col-xs-6 col-md-4 form-group">
+            {!! Form::label('project','Project',['class' => 'control-label']) !!}
+            {!! Form::select('project', $projects, old('project',$currentProject), ['class' => 'form-control']) !!}
+        </div>
+        <div class="col-xs-4">
+            <label class="control-label">&nbsp;</label><br>
+            {!! Form::submit('Select project',['class' => 'btn btn-info']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-condensed datatable">
+            <thead>
+            <tr>
+                <th>Month</th>
+                <th>Income</th>
+                <th>Expenses</th>
+                <th>Fees</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            @foreach ($entries as $date => $info)
+                @foreach($info as $currency => $row)
+                    <td>{{ $date }}</td>
+                    <td>{{ number_format($row['income'],2) }} {{ $currency }}</td>
+                    <td>{{ number_format($row['expenses'],2) }} {{ $currency }}</td>
+                    <td>{{ number_format($row['fees'],2) }} {{ $currency }}</td>
+                    <td>{{ number_format($row['total'],2) }} {{ $currency }}</td>
+                    </tr>
+                    <?php $date = ''; ?>
+                @endforeach
+            @endforeach
+            </tbody>
+        </table>
+    </div><?php */?>
+	{!! Form::open(['method' => 'POST', 'route' => ['misreports.storemisequipment'], 'class' => 'for-labelling' ,'onsubmit' =>"return subform()"]) !!}
+	<div class="row">
+                <div class="col-xs-12 form-group post-method">
+				
+				<?php /*?> {!! Form::label('dailycat', 'Community', ['class' => 'control-label']) !!}
+				   
+					{{ Form::select('sites', [
+					'0' => 'All',
+					'1' => 'Sarovar', 
+					'2' => 'Grande','3' => 'CyberZon'], ['class' => 'form-control', 'id' => 'select_id']
+					) }} <br/><?php */?>
+						<div class="dlyrep-select fire2mis report-hidden">
+					 {!! Form::label('dailycat1', 'Sites:', ['class' => 'control-label']) !!}
+                    {!! Form::select('sites', $sitenames, old('category'), ['class' => 'form-control', 'id' => 'select_id11']) !!}				
+					</div>
+					
+					   {!! Form::hidden('user_id','1', ['class' => 'larev', 'placeholder' => '']) !!}
+					 
+			
+			{!! Form::hidden('month',$report_month, ['class' => 'larev', 'placeholder' => '','id' =>'month']) !!}
+			{!! Form::hidden('year',$report_year, ['class' => 'larev', 'placeholder' => '','id' => 'year']) !!}
+					
+                </div>
+            </div>
+            
+            
+          <div id="reportblock" style="display:none">  
+            <div class="col-md-12 col-sm-12 col-xs-12 metro-suuply1">
+              <div class="x_panel tile fixed_height_400 metro-suuply">
+                <div class="x_title">
+                   <!--<h3>Metro Water Supply details from  01.12.2017 to 31.12.2017</h3>-->
+                </div>
+                <div class="x_content  homely">
+				
+				  <div class="docs-main electromechanical"><div id="validresponse">
+    
+	 
+      
+                      </div>
+					    <?php  $n=0; ?>  
+           <div class="comsbbblly"><div class="fireseafmis"><input type="checkbox" value="correct" class="confirmed" name="confirmdata"><span style="color:#1a816f;font-weight:bold;">Save as</span> <span style="color:#c22804;font-weight:bold;">Draft</span></div>
+        <div class="fireseafmis2"><input type="checkbox" value="1" class=""  name="report_status"><span style="color:#520990;font-weight:bold;">I accept given data period of overall month</span></div></div>
+        <div class="col-sm-12 col-xs-12 submit-button save-button">
+         <input type="hidden" id="id" value="<?php echo ++$n; ?>">
+            
+            {!! Form::submit('Save', ['class' => 'btn btn-danger']) !!}
+    
+
+	
+	</div>
+    
+                        
+                </div>
+              </div>
+            </div>
+            </div>
+			</div>
+			 {!! Form::close() !!}
+	
+	<?php /*?>   <div>Line1:  Status1 </div>
+	   <div>Line2:  Status2 </div>
+	   <div>Line3:  Status3 </div> 
+	   <div>Line4:  Status4 </div><?php */?>
+	 </div>  
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/build/js/custom.min.js"></script>	
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+$( document ).ready(function() {
+
+  $('select[name="sites"]').on('change', function(){    
+    //alert($(this).val());   
+
+	 var val = $(this).val();
+	var year = $("#year").val();
+	var month = $("#month").val();
+	 
+	  if(val == "") {
+	  
+	   $("#reportblock").css("display", "none");
+	//  var href = window.location.href;
+   //window.location = href.replace(/getdailyreport\/.*$/, "");
+   //window.location.href = "http://aparna.greaterkakinada.com/dailyreports";  
+	   
+	 } else {
+	 
+	 $("#reportblock").css("display", "block");
+	 var thisvalue = $( this ).text();
+	  var selectedText = $(this).find("option:selected").text();
+            	// alert(selectedText);
+				 $("#communityname").html(selectedText);
+				 
+				 //AJAX CALL
+	
+	   $.ajax({
+				type: "get",
+				cache:false,
+				url: '{{ route('validation.getequipmentmisvalues') }}',
+				data: { site: val, year: year, month: month},
+				success: function( response ) {
+				
+				$("#validresponse").html(response);
+				$('#additional_info').summernote({
+
+              height:200,
+
+            });
+			   
+				 //var obj = jQuery.parseJSON( response);
+                 //  alert(response); 
+			   
+			         
+				}  
+        }); 
+
+	   
+	//END AJAX CALL
+ 
+	  }
+  // window.location.replace('getdailyreport/'+val);
+	//alert(id); 
+});
+
+
+/*$( "#jk_pump_nw" ).change(function() {
+  alert( "Handler for .change() called." );
+   var jkn = $("#jk_pump_nw").val();
+   alert(jkn);
+   var jv = 0;
+ if(jkn != ""){
+     jv = parseFloat(jkn);
+	 alert(jv);
+	 if(jv > 0){
+	 	addFormField(); 
+	 }
+ }
+});*/  
+
+$("#jk_pump_nw").change(function(){
+   
+ }); 
+
+
+});
+  
+  
+  function subform()
+
+ {
+
+	var flag = true;
+
+	$(".required" ).each(function() {
+		if($(this).val() == ""){
+			flag = false;
+		$(this).addClass("numerror");
+		}
+		else{
+			$(this).removeClass("numerror"); 
+		}
+	}); 
+	
+	
+	if ($('.confirmed:checked').length == 0) {
+
+	 alert("Please confirm given data period of overall month")
+
+	 flag = false;
+
+	} 
+
+
+if(flag == true){
+
+  return true; 
+
+}
+
+else{
+return false;    
+}
+
+ }
+ 
+ 
+ function addFormField(dis,text) {
+
+		var id = document.getElementById("id").value;
+		var val = dis;
+		var text = text;
+		 var len = $(".foressssissue").length;
+		 
+		 var addtext = "<div id='row" + dis + "' class='row" + dis + " foressssissue'><div class='alwayyya'>"+val+": "+text+"</div><div class='col-sm-4 col-xs-4 adddformfiles'><label>Description of Issue</label></div><div class='col-sm-8 col-xs-8 adddformfiles'><input type='hidden' name='category[]' value='"+val+"'><input type='text' class='form-control' placeholder='' name='issue_des[]'/></div><div class='col-sm-4 col-xs-4'><label>Root Cause</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder=' ' name='root_cause[]'/></div><div class='col-sm-4 col-xs-4'><label>Action Required/Planned</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder=' ' name='act_req_plan[]'/></div><div class='col-sm-4 col-xs-4'><label>Pending From Days</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder='' name='pendingfromdays[]'/></div><div class='col-sm-4 col-xs-4'><label>Responsibility</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder='' name='reponsibility[]'/></div><div class='col-sm-4 col-xs-4'><label>Notified to the Concern</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder=' ' name='notify_concern[]'/></div><div class='col-sm-4 col-xs-4'><label>Estimation Date</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder=' ' name='estimation_time[]'/></div></div>";
+		
+		if(len > 0){
+			var cn = 0; 
+			$( ".foressssissue" ).each(function( index ) {
+				cn++;
+				console.log( index + ": " + $( this ).text() );
+				var xx = $( this ).attr("id");
+				//alert(xx); 
+				var res = xx.replace("row", "");
+				var rowid = parseInt(res);
+				if(dis < rowid){
+					$(this).before(addtext);
+					return false; 
+				}
+				else if(cn == len){
+				 $(this).after(addtext);
+				 
+				}
+			
+			});
+		   
+		} 
+		
+		else{
+		   $("#divTxt").append(addtext);
+		}
+        
+		/*$("#divTxt").append("<div id='row" + dis + "' class='row" + dis + " foressssissue'><div class='alwayyya'>"+val+": "+text+"</div><div class='col-sm-4 adddformfiles'><label>Description of Issue</label></div><div class='col-sm-8 adddformfiles'><input type='hidden' name='category[]' value='"+val+"'><input type='text' class='form-control' placeholder='' name='issue_des[]'/></div><div class='col-sm-4'><label>Root Cause</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='root_cause[]'/></div><div class='col-sm-4'><label>Action Required/Planned</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='act_req_plan[]'/></div><div class='col-sm-4'><label>Pending From Days</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder='' name='pendingfromdays[]'/></div><div class='col-sm-4'><label>Responsibility</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder='' name='reponsibility[]'/></div><div class='col-sm-4'><label>Notified to the Concern</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='notify_concern[]'/></div></div>"); */
+  
+	}
+	
+	 function addFormFieldnew(dis,text) {
+
+		var id = document.getElementById("id").value;
+		var val = dis;
+		var text = text;
+        
+		$("#divTxt").append("<div id='row" + dis + "' class='row" + dis + " foressssissue'><div class='col-sm-4 adddformfiles'><label>Description of Issue</label></div><div class='col-sm-8 adddformfiles'><input type='hidden' name='category[]' value='"+val+"'><input type='text' class='form-control' placeholder=' ' name='issue_des[]'/></div><div class='col-sm-4'><label>Root Cause</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='root_cause[]'/></div><div class='col-sm-4'><label>Action Required/Planned</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='act_req_plan[]'/></div><div class='col-sm-4'><label>Pending From Days</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='pendingfromdays[]'/></div><div class='col-sm-4'><label>Responsibility</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='reponsibility[]'/></div><div class='col-sm-4'><label>Notified to the Concern</label></div><div class='col-sm-8'><input type='text' class='form-control' placeholder=' ' name='notify_concern[]'/></div><div class='col-sm-4 col-xs-4'><label>Estimation Date</label></div><div class='col-sm-8 col-xs-8'><input type='text' class='form-control' placeholder=' ' name='estimation_time[]'/></div></div>");
+  
+	}
+	
+	
+	
+function reportinfo(val,id,text) {
+   if(parseInt(val) > 0){
+     var $myDiv = $('#row'+id);
+
+    if ( $myDiv.length){
+    }else{
+       addFormField(id,text);
+   }
+   }
+   else{
+    $("#row"+id).remove();
+   }
+};
+
+function reportinfonew(val,id,text) {
+
+if(id== 34 || id == 33 || id == 32){
+
+
+ if(id== 32){
+ var setvaone = 0;
+   var manu = 0;
+   var off = 0;
+   var nw = 0;
+   var auto = 0;
+   
+    if(parseFloat($("#strm_Water_nw").val()) > 0){ nw = parseFloat($("#strm_Water_nw").val());}
+	  if($("#strm_Water_nw").val() == ""){
+     nw = 0;
+   }   
+    if(parseFloat($("#strm_Water_man").val()) > 0){ manu = parseFloat($("#strm_Water_man").val());}
+	  if($("#strm_Water_man").val() == ""){
+     manu = 0;
+   }   
+   
+    if(parseFloat($("#strm_Water_off").val()) > 0){ off = parseFloat($("#strm_Water_off").val());}
+	  if($("#strm_Water_off").val() == ""){
+     off = 0;
+   }   
+    if(parseFloat($("#strm_Water_auto").val()) > 0){ auto = parseFloat($("#strm_Water_auto").val());}
+	  if($("#strm_Water_auto").val() == ""){
+     auto = 0;
+   }   
+   
+   setvaone = parseFloat(nw + manu + off );
+   if(setvaone > 0){
+     var $myDiv = $('#row'+id);
+
+    if ( $myDiv.length){
+    }else{
+       addFormField(id,text);
+   }
+   }
+    else{
+    $("#row"+id).remove();
+   }
+   }
+    if(id== 33){
+	var setvatw = 0;
+   var manu = 0;
+   var off = 0;
+   var nw = 0;
+   var auto = 0;
+   
+    if(parseFloat($("#oozing_pump_nw").val()) > 0){ nw = parseFloat($("#oozing_pump_nw").val());}
+	  if($("#oozing_pump_nw").val() == ""){
+     nw = 0;
+   }   
+    if(parseFloat($("#oozing_pump_man").val()) > 0){ manu = parseFloat($("#oozing_pump_man").val());}
+	  if($("#oozing_pump_man").val() == ""){
+     manu = 0;
+   }   
+   
+    if(parseFloat($("#oozing_pump_off").val()) > 0){ off = parseFloat($("#oozing_pump_off").val());}
+	  if($("#oozing_pump_off").val() == ""){
+     off = 0;
+   }   
+    if(parseFloat($("#oozing_pump_auto").val()) > 0){ auto = parseFloat($("#oozing_pump_auto").val());}
+	  if($("#oozing_pump_auto").val() == ""){
+     auto = 0;
+   }   
+   
+   setvatw = parseFloat(nw + manu + off);
+   if(setvatw > 0){
+     var $myDiv = $('#row'+id);
+
+    if ( $myDiv.length){
+    }else{
+       addFormField(id,text);
+   }
+   }
+    else{
+    $("#row"+id).remove();
+   }
+   
+   }
+    if(id== 34){
+	var setvath = 0;
+
+	
+   var manu = 0;
+   var off = 0;
+   var nw = 0;
+   var auto = 0;
+   
+    if(parseFloat($("#excess_rain_wt_nw").val()) > 0){ nw = parseFloat($("#excess_rain_wt_nw").val());}
+	  if($("#excess_rain_wt_nw").val() == ""){
+     nw = 0;
+   }   
+    if(parseFloat($("#excess_rain_wt_man").val()) > 0){ manu = parseFloat($("#excess_rain_wt_man").val());}
+	  if($("#excess_rain_wt_man").val() == ""){
+     manu = 0;
+   }   
+   
+    if(parseFloat($("#excess_rain_wt_off").val()) > 0){ off = parseFloat($("#excess_rain_wt_off").val());}
+	  if($("#excess_rain_wt_off").val() == ""){
+     off = 0;
+   }   
+    if(parseFloat($("#excess_rain_wt_auto").val()) > 0){ auto = parseFloat($("#excess_rain_wt_auto").val());}
+	  if($("#excess_rain_wt_auto").val() == ""){
+     auto = 0;
+   }   
+   
+   setvath = parseFloat(nw + manu + off);
+   if(setvath > 0){
+     var $myDiv = $('#row'+id);
+
+    if ( $myDiv.length){
+    }else{
+       addFormField(id,text);
+   }
+   }
+    else{
+    $("#row"+id).remove();
+   }
+   
+   
+   }
+   
+}else
+{
+   if(parseInt(val) > 0){
+     var $myDiv = $('#row'+id);
+
+    if ( $myDiv.length){
+    }else{
+       addFormField(id,text);
+   }
+   }
+   else{
+    $("#row"+id).remove();
+   }
+   }
+};
+
+function boxinfo(val,id,text) {
+ $(".row"+id).remove();
+	if(parseInt(val) > 0){
+		var $myDiv = $('#row'+id);
+	   $(".row"+id).remove();
+		var i;
+		for (i = 0; i < val; i++) {
+		if(i==0){
+		addFormField(id,text);
+		}else{
+		addFormFieldnew(id,text);
+		}
+		 
+	}
+	}   
+	else{
+	$(".row"+id).remove();
+	}
+};
+
+
+
+  </script>
+  @include('partials.footer')
+@stop

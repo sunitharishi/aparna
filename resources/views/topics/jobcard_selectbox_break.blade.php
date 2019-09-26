@@ -1,0 +1,2 @@
+{!! Form::label('jctype12', $jctype=='1'?'Breakdown ID':'Incident ID', ['class' => 'control-label']) !!}
+{!! Form::select('jctype12', $jcoptions, '', ['class' => 'form-control select2mes','onchange'=>'getJobCardEmployeesnew(this);']) !!}

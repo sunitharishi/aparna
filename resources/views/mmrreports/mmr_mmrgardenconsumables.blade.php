@@ -1,0 +1,214 @@
+@extends('layouts.app')
+
+@section('content')
+  
+<div class="panel panel-default critical-manpower">
+    <div class="row">
+        <div class="mmrpower-heading consumables-heading">
+        	<h3><span>Garden Consumables </span></h3>
+        </div>
+    </div>      
+    <div class="row housekeeping-consumables">
+        <div class="col-sm-6">
+            <table width="100%" border="1">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Pesticides/Fertilizers and Fungicides </th>
+                        <th>UOM</th>
+                        <th>QTY</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Vermicompost</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CPP</td>
+                        <td>KGS</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Monocrotophas</td>
+                        <td>NOS</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Bavistm Powder</td>
+                        <td>NOS</td>
+                        <td>0</td>
+                    </tr>
+                     <tr>
+                        <td>5</td>
+                        <td>Dhanvit</td>
+                        <td>MTR</td>
+                        <td>0</td>
+                    </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>Multiplex</td>
+                        <td>KGS</td>
+                        <td>780</td>
+                    </tr>
+                     <tr>
+                        <td>7</td>
+                        <td>Foradon</td>
+                        <td>NOS</td>
+                        <td>0</td>
+                    </tr>
+                     <tr>
+                        <td>8</td>
+                        <td>Forate</td>
+                        <td>NOS</td>
+                        <td>3</td>
+                    </tr>
+                     <tr>
+                        <td>9</td>
+                        <td>19-19-19</td>
+                        <td>NOS</td>
+                        <td>126</td>
+                    </tr>
+                     <tr>
+                        <td>10</td>
+                        <td>Acephate</td>
+                        <td>LTR</td>
+                        <td>0</td>
+                    </tr>
+                     <tr>
+                        <td>11</td>
+                        <td>17-17-17</td>
+                        <td>NOS</td>
+                        <td>6</td>
+                    </tr>
+                     <tr>
+                        <td>12</td>
+                        <td>Urea</td>
+                        <td>LTR</td>
+                        <td>30</td>
+                    </tr>
+                     <tr>
+                        <td>13</td>
+                        <td>Potash</td>
+                        <td>LTR</td>
+                        <td>30</td>
+                    </tr>
+                     <tr>
+                        <td>14</td>
+                        <td>Rogar</td>
+                        <td>LTR</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-6">
+            <table width="100%" border="1">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Pesticides/Fertilizers and Fungicides </th>
+                        <th>UOM</th>
+                        <th>QTY</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                    <tr>
+                        <td>15</td>
+                       <td>Malathian</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>15-15-15</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>2-4D</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Glycil</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>19</td>
+                        <td>16-16-16</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>20</td>
+                        <td>Arrow</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>21</td>
+                       <td>Blitax</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>22</td>
+                       <td>20-20-20</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>23</td>
+                        <td>Manocozeb</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>24</td>
+                       <td>Lambdacyhalothrin</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>25</td>
+                        <td>Pyriproxyfeen</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>26</td>
+                        <td>Contaf</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>27</td>
+                        <td>Imedaclopride</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                     <tr>
+                        <td>28</td>
+                        <td>Easy soap oil</td>
+                        <td>LTR</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+   
+    @include('partials.footer')
+@stop
+
